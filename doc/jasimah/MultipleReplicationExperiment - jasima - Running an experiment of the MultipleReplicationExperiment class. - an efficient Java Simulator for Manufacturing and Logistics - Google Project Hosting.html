@@ -1,0 +1,415 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="https://code.google.com/p/jasima/wiki/MultipleReplicationExperiment" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = "ABZ6GAedpzR-5BpcqX7jWVLhH0NuDJnKUQ:1452183081053";
+ 
+ 
+ var CS_env = {"relativeBaseUrl": "", "domainName": null, "token": "ABZ6GAedpzR-5BpcqX7jWVLhH0NuDJnKUQ:1452183081053", "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/15399544380024573679", "assetHostPath": "https://ssl.gstatic.com/codesite/ph", "projectName": "jasima", "profileUrl": "/u/116646275102265627258/", "loggedInUserEmail": "gxzhouyong@gmail.com", "projectHomeUrl": "/p/jasima"};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-28990376-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>MultipleReplicationExperiment - 
+ jasima -
+ 
+ Running an experiment of the MultipleReplicationExperiment class. - 
+ an efficient Java Simulator for Manufacturing and Logistics - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15399544380024573679/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15399544380024573679/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="/feeds/p/jasima/svnchanges/basic?path=/wiki/MultipleReplicationExperiment.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15399544380024573679/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ 
+ 
+ <b>gxzhouyong@gmail.com</b>
+ 
+ 
+ | <a href="/u/116646275102265627258/" id="projects-dropdown" onclick="return false;"
+ ><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="/u/116646275102265627258/" onclick="_CS_click('/gb/ph/profile');"
+ title="Profile, Updates, and Settings"
+ ><u>Profile</u></a>
+ | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Fjasima%2Fwiki%2FMultipleReplicationExperiment" 
+ onclick="_CS_click('/gb/ph/signout');"
+ ><u>Sign out</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ 
+ 
+ <td id="plogo">
+ <link itemprop="url" href="/p/jasima">
+ <a href="/p/jasima/">
+ 
+ 
+ <img src="/p/jasima/logo?cct=1422025071"
+ alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="/p/jasima/"><span itemprop="name">jasima</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="/p/jasima/"><span itemprop="description">an efficient Java Simulator for Manufacturing and Logistics</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="/p/jasima/" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/jasima/w/list" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/jasima/issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/jasima/source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="https://code.google.com/export-to-github/export?project=jasima">
+ <button>Export to GitHub</button>
+ 
+ </a>
+ 
+ 
+ <div class=gtbc></div>
+</div>
+
+ 
+ <div style="font-weight: bold; color: #c00; margin-top: 5px; margin-left: 13px;">
+ READ-ONLY: This project has been <a href='https://code.google.com/archive/p/jasima'>archived</a>. For more information see <a href='https://code.google.com/p/support/wiki/ReadOnlyTransition'>this post</a>.
+ </div>
+ 
+
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="/p/jasima/w/list" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="5" >&nbsp;My starred pages</option>
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <img width="15" height="15" id="star_img"
+ src="https://ssl.gstatic.com/codesite/ph/images/star_off.gif"
+ style="cursor:pointer"
+ onclick="_CS_toggleStar(this,
+ {'scope': 'wiki',
+ 'user': '_CURRENT_USER',
+ 'item': 'jasima:MultipleReplicationExperiment'
+ });"/>
+ 
+ <span style="font-size:120%;font-weight:bold">MultipleReplicationExperiment</span>
+ &nbsp;
+ <div> 
+ 
+ <i>Running an experiment of the MultipleReplicationExperiment class.</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Mon Dec 22 07:18:24 2014">
+ Dec 22, 2014</span>
+ 
+ by 
+
+ <a class="userlink"
+ href="/u/116006435731154567084/">christop...@gmail.com</a
+>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <h1><a name="Running_Multiple_Replications_of_the_Same_Experiment"></a>Running Multiple Replications of the Same Experiment<a href="#Running_Multiple_Replications_of_the_Same_Experiment" class="section_anchor"></a></h1><p>The <tt>MultipleReplicationExperiment</tt> class can be used to run the same simulation experiment a number of times, using different streams of (pseudo)random numbers. This is commonly done in simulation studies to isolate the stochastic influence of random variables, which can have a large impact on the results of an experiment. The instructions in this section build on those on how to <a href="/p/jasima/wiki/DynamicShopExperiment">run a job shop/flow shop experiment</a>. </p><h2><a name="Experimental_Design"></a>Experimental Design<a href="#Experimental_Design" class="section_anchor"></a></h2><p>Just like the <tt>DynamicShopExperiment</tt> class, the <tt>MultipleReplicationExperiment</tt> class contains a number of parameters. However, we are only interested in setting the number of replications of the experiment (<tt>maxReplications</tt>) to 30 in this case. The only other parameter that we are required to set is <tt>baseExperiment</tt>, which refers to the underlying experiment of which we want to run several replications. Click on the “New” button, select <tt>DynamicShopExperiment</tt> and click on “OK”. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/MRExperiment1.png" /> </p><p>Next, click on <tt>baseExperiment</tt> to open the submenu of this parameter, which is identical to the main menu of the <tt>DynamicShopExperiment</tt>. We can set up this base experiment as described in the section on how to <a href="/p/jasima/wiki/DynamicShopExperiment">run a job shop/flow shop experiment</a>. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/MRExperiment2.png" /> </p><h2><a name="Run_Configuration"></a>Run Configuration<a href="#Run_Configuration" class="section_anchor"></a></h2><p>The experiment can be configured and run in the same way as an experiment of the <tt>DynamicShopExperiment</tt> class. The following section illustrates the basic structure of the resulting Excel output files. Since this is independent of the activated shop and machine listeners we only discuss one Excel file (generated with the default shop listener). </p><h2><a name="Interpretation_of_Experimental_Results"></a>Interpretation of Experimental Results<a href="#Interpretation_of_Experimental_Results" class="section_anchor"></a></h2><p>Once jasima® has completed all 30 replications, open the Excel file. You will notice that the spreadsheet consists of several worksheets. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/MRExperiment3.png" /> (screenshot showing the main experiment sheet, red circle to emphasise other sheets) </p><p>As in the case of the <tt>DynamicShopExperiment</tt> class, the “main experiment” worksheet consists of an upper section describing the parameter setting of the simulation experiment and a lower section showing the experimental results. In addition to the parameter values that are directly related to the replication experiment, the upper section also lists all parameter values of the base experiment, which are indicated by the prefix “baseExperiment”. Note that the lower section shows the results of the replication experiment (not the base experiment), i.e. single value measures such as the number of started jobs (“numJobsStarted”) are now summarised by a statistic, where the value in the “value/mean” column is the number of started jobs averaged over the 30 replications. For statistics such as <tt>flowtime</tt>, only the mean is shown (as indicated by the suffix “mean”), e.g. the value in the “min” column is the minimum mean flow time of jobs obtained in any of the 30 replications. Note also that the number of counted values (or means) for these measures is 30, i.e. equal to the number of replications.  (NOT SURE WHETHER THIS IS STILL IMPORTANT: It is also possible to assign an existing experiment to the <tt>baseExperiment</tt> property. To do so, click on the <tt>Load</tt> icon and change the file filter to &#x27;Jasima experiments&#x27;. A copy of the experiment will be made, so changes in the original file are not visible in the outer experiment&#x27;s file.) Next, open the “sub-exp. overview” worksheet. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/MRExperiment4.png" /> (screenshot showing the sub-exp. overview sheet) </p><p>This spreadsheet lists the parameter setting of each individual base experiment. Since experiments of the <tt>MultipleReplicationExperiment</tt> class simply replicate the base experiment a number of times, most parameter values are exactly the same for the individual base experiments. In fact, the only two parameters that take on a different value in every single base experiment (as indicated by the 30 in the “distinct values” column) are the <tt>initialSeed</tt> and <tt>name</tt>. The seed is a number that initialises the generator of the (pseudo)random number stream. The same seed will always yield the same random numbers (which is essential for the reproducibility of results), whereas a different seed generally corresponds to a different stream. Thus, the 30 distinct seed values indicate that each of the 30 replications is a different instance of the base experiment. Next, open the “sub-exp. value|mean” worksheet. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/MRExperiment5.png" /> (screenshot showing the sub-exp. overview sheet) </p><p>This spreadsheet provides detailed information on the results of every replication of the base experiment, where each row relates to one replication. The first two columns identify an experiment by its seed and name, followed by a number of columns showing the results of the various measures (which depend on the activated listeners). For statistics such as <tt>flowtime</tt>, only the mean is shown in this worksheet. The other recorded statistical values, i.e. the minimum value, the maximum value, the standard deviation of values, the number of counted values, and the sum of all values, can be found in the subsequent worksheets that have exactly the same structure. </p>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ 
+ 
+ <form name="delcom" action="../w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="MultipleReplicationExperiment" >
+ <input type="hidden" name="token" value="ABZ6GAedpzR-5BpcqX7jWVLhH0NuDJnKUQ:1452183081053" >
+ </form>
+
+
+ <script src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/ph_core.js"></script>
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/ph_dwiki.js"></script>
+ 
+ 
+ 
+ 
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+

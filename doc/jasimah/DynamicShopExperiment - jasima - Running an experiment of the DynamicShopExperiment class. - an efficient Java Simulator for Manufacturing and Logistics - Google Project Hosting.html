@@ -1,0 +1,415 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="https://code.google.com/p/jasima/wiki/DynamicShopExperiment" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = "ABZ6GAf7JtEQLAC3FfR5_GwYHsx807odbA:1452143761805";
+ 
+ 
+ var CS_env = {"domainName": null, "token": "ABZ6GAf7JtEQLAC3FfR5_GwYHsx807odbA:1452143761805", "relativeBaseUrl": "", "projectName": "jasima", "projectHomeUrl": "/p/jasima", "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/15399544380024573679", "profileUrl": "/u/116646275102265627258/", "loggedInUserEmail": "gxzhouyong@gmail.com", "assetHostPath": "https://ssl.gstatic.com/codesite/ph"};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-28990376-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>DynamicShopExperiment - 
+ jasima -
+ 
+ Running an experiment of the DynamicShopExperiment class. - 
+ an efficient Java Simulator for Manufacturing and Logistics - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15399544380024573679/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15399544380024573679/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="/feeds/p/jasima/svnchanges/basic?path=/wiki/DynamicShopExperiment.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15399544380024573679/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ 
+ 
+ <b>gxzhouyong@gmail.com</b>
+ 
+ 
+ | <a href="/u/116646275102265627258/" id="projects-dropdown" onclick="return false;"
+ ><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="/u/116646275102265627258/" onclick="_CS_click('/gb/ph/profile');"
+ title="Profile, Updates, and Settings"
+ ><u>Profile</u></a>
+ | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Fjasima%2Fwiki%2FDynamicShopExperiment" 
+ onclick="_CS_click('/gb/ph/signout');"
+ ><u>Sign out</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ 
+ 
+ <td id="plogo">
+ <link itemprop="url" href="/p/jasima">
+ <a href="/p/jasima/">
+ 
+ 
+ <img src="/p/jasima/logo?cct=1422025071"
+ alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="/p/jasima/"><span itemprop="name">jasima</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="/p/jasima/"><span itemprop="description">an efficient Java Simulator for Manufacturing and Logistics</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="/p/jasima/" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/jasima/w/list" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/jasima/issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/jasima/source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="https://code.google.com/export-to-github/export?project=jasima">
+ <button>Export to GitHub</button>
+ 
+ </a>
+ 
+ 
+ <div class=gtbc></div>
+</div>
+
+ 
+ <div style="font-weight: bold; color: #c00; margin-top: 5px; margin-left: 13px;">
+ READ-ONLY: This project has been <a href='https://code.google.com/archive/p/jasima'>archived</a>. For more information see <a href='https://code.google.com/p/support/wiki/ReadOnlyTransition'>this post</a>.
+ </div>
+ 
+
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="/p/jasima/w/list" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="5" >&nbsp;My starred pages</option>
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <img width="15" height="15" id="star_img"
+ src="https://ssl.gstatic.com/codesite/ph/images/star_off.gif"
+ style="cursor:pointer"
+ onclick="_CS_toggleStar(this,
+ {'scope': 'wiki',
+ 'user': '_CURRENT_USER',
+ 'item': 'jasima:DynamicShopExperiment'
+ });"/>
+ 
+ <span style="font-size:120%;font-weight:bold">DynamicShopExperiment</span>
+ &nbsp;
+ <div> 
+ 
+ <i>Running an experiment of the DynamicShopExperiment class.</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Mon Dec 22 06:27:15 2014">
+ Dec 22, 2014</span>
+ 
+ by 
+
+ <a class="userlink"
+ href="/u/116006435731154567084/">christop...@gmail.com</a
+>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <h1><a name="Running_a_Job_Shop/Flow_Shop_Experiment"></a>Running a Job Shop/Flow Shop Experiment<a href="#Running_a_Job_Shop/Flow_Shop_Experiment" class="section_anchor"></a></h1><p>The <tt>DynamicShopExperiment</tt> class can be used to design and run a simulation experiment of a standard job shop or flow shop model. In these models, each job consists of a number of operations that have to be processed in a predefined order. Each operation requires a specific machine for its processing for a certain amount of time. Further assumptions are that a job can only be processed by one machine at a time and that a machine can only process one operation at a time. In the flow shop model, all jobs visit the machines for their operations in the same order, whereas the processing order can differ from job to job in the more general job shop model. </p><h2><a name="Experimental_Design"></a>Experimental Design<a href="#Experimental_Design" class="section_anchor"></a></h2><p>The <tt>DynamicShopExperiment</tt> class contains a number of numerical, categorical and object parameters (variables) to set up one of these models. Numerical parameters can be set by simply clicking on the field next to the parameter and changing its value as desired. In this case, we set the following model parameters: </p><ul><li>the number of machines (<tt>numMachines</tt>) to 10, </li><li>the minimum number of operations per job (<tt>numOpsMin</tt>) to 2, </li><li>the maximum number of operations per job (<tt>numOpsMax</tt>) to 10, </li><li>the minimum processing time of an operation (<tt>opProcTimeMin</tt>) to 1, </li><li>the maximum processing time of an operation (<tt>opProcTimeMax</tt>) to 99, </li><li>the utilisation of the machines, i.e. the relative proportion of time that the machines are busy, determined by the job arrival rate (<tt>utilLevel</tt>) to 0.8. </li></ul><p>We also configure the simulation to stop after all of the first 10000 arriving jobs (with indices 0 to 9999) have been completed by setting the <tt>stopArrivalsAfterNumJobs</tt> parameter to the corresponding value. Alternatively, you can set the <tt>simulationLength</tt> parameter to stop the simulation after a certain simulated time or the <tt>stopAfterNumJobs</tt> to stop the simulation after a certain number of jobs (not necessarily the first arriving jobs) have been completed. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment1.png" /> </p><p>Note that parameters requiring integer values can also be increased and decreased by clicking on the upward and downward arrows located right of the respective field. </p><p>The second type of parameters, categorical parameters, can be set to one of a number of predefined values by clicking on the field next to the parameter, which will open a drop-down menu listing the available options. In this case, we want to build a job shop model and thus select the JOB_SHOP option in the drop-down menu of the categorical <tt>scenario</tt> parameter. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment2.png" /> </p><p>The third type of parameters require a reference to a Java object of a certain class. We illustrate the procedure of setting these object parameters by the example of the <tt>sequencingRule</tt> parameter, which refers to the dispatching rule that is used to schedule the machines. The first step is to click on the “new” button located right of the field. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment3.png" /> </p><p>This will open a dialog listing all types that are compatible with this parameter, i.e. dispatching rules in the case. Here, we choose the <tt>SPT</tt> rule, which prioritises jobs in non-decreasing order of the processing time of their imminent operation, and click on “OK”. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment4.png" /> </p><p>We can further set a tie-breaking rule that is applied if two jobs have the same priority, i.e. the same operation processing time in this case. This can be done by clicking on <tt>sequencingRule</tt>, which will open a submenu, and then on the “New” button of the parameter <tt>tieBreaker</tt>, which will open the above dialog again. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment5.png" /> </p><p>In this example, we choose <tt>TieBreakerFASFS</tt> as the tie-breaking rule, which selects jobs in non-decreasing order of their job number (assigned to the job at their point of arrival). You can remove any assigned object again by clicking on the “Delete” button. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment6.png" /> </p><p>We have now defined all the compulsory parameters of the <tt>DynamicShopExperiment</tt> class, and are almost ready to run the experiment. </p><h2><a name="Run_Configuration"></a>Run Configuration<a href="#Run_Configuration" class="section_anchor"></a></h2><p>Before running the experiment, we need to decide on the measures and statistics that we would like jasima® to return and also the output format of these results. Currently, jasima® supports the XML and Excel file formats. To define the output format right-click on “TenMachinesJobShopExperiment.jasima” and select “Run As &gt; Jasima Simulation”. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment7.png" /> </p><p>The run configuration window will open, in which you can set different options for the output of jasima® in the “Results” section. In this example, we want the results to be printed to the console as well as written to an Excel (XLS) file, so we select both options by clicking on the respective tickboxes. You can also provide a name for the Excel file by clicking on the adjacent text field and typing in the desired name. For illustrative purposes, let us name this file “BasicResults”. Once you are done, click on “Run” to run the simulation experiment. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment8.png" /> </p><p>jasima® will start and (depending on the chosen log level) print out a number of statements to the console that describe the progress of the simulation experiment. Once the experiment is complete, the results are printed to the console and the file “BasicResults.xls” (containing the same information) is created, which you should find in the project tree in the Eclipse Package Explorer. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment9.png" /> </p><p>By default, the jasima® output is based on the data of all jobs. However, in simulation studies it is common to discard jobs that are completed within the initial, so called warmup period. Let us assume that we determined the warmup period of our experiment to comprise the completion of 2000 jobs and that we want the output to include only data of the jobs with indices 2000 to 9999 (corresponding to a sample size of 8000 jobs). In jasima® GUI, we can achieve this by clicking on the parameter <tt>shopListener</tt> and the on “Add…” in the submenu. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment10.png" /> </p><p>This will open a window to inform you that the property is set to null. Click on the “New” button. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment11.png" /> </p><p>Choose <tt>BatchStatCollector</tt>, and click on “OK”. The next window shows some parameters of this collector. Change the values of the parameters <tt>batchSize</tt> (sample size) and <tt>ignoreFirst</tt> to 8000 and 2000 by clicking on the respective text fields, and click on “OK” to confirm (the <tt>initialPeriod</tt> parameter can be used for warmup periods measured in time units). </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment12.png" /> </p><p>The <tt>BatchStatCollector</tt> should now appear in the submenu of the <tt>shopListener</tt> parameter. Clicking on the “Remove” button will reset the output to the default again. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment13.png" /> </p><p>Right-click on “TenMachinesJobShopExperiment.jasima” and select “Run As &gt; Run Configurations…” to enter the “Run Configurations” window again, rename the Excel output file “BatchResults” and rerun jasima® by clicking on “Run”. </p><p>Sometimes, we may also be interested in statistics related to the machines rather than jobs. In order to retrieve these, you will need to add a machine listener. To do this, click on the parameter <tt>machineListener</tt> and then on “Create new”. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment14.png" /> </p><p>Next, add a <tt>MachineStatCollector</tt> by proceeding in the same way as for the <tt>BatchStatCollector</tt>. Enter the “Run Configurations” window for the “TenMachinesJobShopExperiment” once again, rename the Excel output file “MachineResults” and rerun jasima® by clicking on “Run”. </p><p>Upon the completion of the simulation run, you should have three different Excel files (“BasicResults.xls”, “BatchResults.xls” and “MachineResults.xls”) in the project tree in the Eclipse Package Explorer. We discuss each file in the following section. </p><h2><a name="Interpretation_of_Experimental_Results"></a>Interpretation of Experimental Results<a href="#Interpretation_of_Experimental_Results" class="section_anchor"></a></h2><p>Open the “BasicResults.xls” file by right-clicking on it and selecting “Open With &gt; System Editor”. This will open the file within Excel (or the corresponding spreadsheet program installed on your system). </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment15.png" /> </p><p>The spreadsheet consists of two sections, an upper section describing the parameter setting of the simulation experiment and a lower section showing the experimental results. The upper section should look familiar in that the listed parameters and their values correspond one-to-one to what is shown in the GUI. In the lower section, there are two type of measures, single value measures and statistics. An example of the former is <tt>numTardy</tt>, which refers to the number of jobs that have been completed after their due date. In contrast, <tt>flowtime</tt> is a statistic of the flow time of jobs, which is summarised by the mean, the minimum value, the maximum value, the standard deviation of values, the number of counted values (the sample size), and the sum of all values (from left to right). Some of the other listed measures are the makespan (<tt>cMax</tt>), the number of started (<tt>numJobsStarted</tt>) and finished (<tt>numJobsFinished</tt>) jobs, the run time of jasima® in seconds (<tt>runTime</tt>), the simulated time (<tt>simTime</tt>), and the tardiness of jobs (<tt>tardiness</tt>). Note that the number of finished jobs is slightly larger than the value of the <tt>stopArrivalsAfterNumJobs</tt> parameter. This is because the stopping criterion actually stops only the generation of new jobs, while all jobs that are in the system at that point are still finished. The completion of the last job then triggers the end of the simulation run. Thus, if jobs that do not belong to the set of the first 10000 arriving jobs finish earlier than any of those 10000, the number of finished jobs will be larger in the end. Next, open the “BatchResults.xls” file. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment16.png" /> </p><p>As expected, the upper section for the parameter settings is exactly the same apart from the <tt>shopListener</tt> parameter, which now also includes the <tt>BatchStatCollector</tt>. In contrast, the results section has been amended by a variety of job-related measures and statistics with a “b0” prefix. Note that the <tt>b0.flowtime</tt> and <tt>b0.tardiness</tt> statistics differ from their counterparts without the prefix. This is due to the fact that the former are based solely on jobs with indices 2000 to 9999, whereas the latter are based on all jobs (which is also evident from the respective count values). Next, open the “MachineResults.xls” file. </p><p><img src="https://jasima.googlecode.com/svn/wiki/images/DSExperiment17.png" /> (Screenshot showing Machine Stats) </p><p>In addition to the job-related measures, the results section now shows a variety of machine-related statistics for every machine in the shop. Statistics related to the same are identified by the same prefix, which corresponds to the name of the machine, e.g. “m0” in this case. Measures shown include the queue length (<tt>qLen</tt>) and utilisation (<tt>util</tt>) of machines. Note that the actual utilisation of each machine is very close to 0.8, the value of the (analytically derived) <tt>utilLevel</tt> parameter. </p>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ 
+ 
+ <form name="delcom" action="../w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="DynamicShopExperiment" >
+ <input type="hidden" name="token" value="ABZ6GAf7JtEQLAC3FfR5_GwYHsx807odbA:1452143761805" >
+ </form>
+
+
+ <script src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/ph_core.js"></script>
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15399544380024573679/js/ph_dwiki.js"></script>
+ 
+ 
+ 
+ 
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+
